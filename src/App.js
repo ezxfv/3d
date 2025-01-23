@@ -38,35 +38,35 @@ function App() {
       <Router>
         <Suspense fallback={<div className='loading_page'>Loading...</div>}>
         <Routes>
-          <Route element={ <Home /> } path="/" />
-          <Route element={ <City /> } path="/city" />
-          <Route element={ <Earth /> } path="/earth" />
-          <Route element={ <EarthDigital /> } path='earthDigital' />
-          <Route element={ <Demo /> } path="/demo" />
-          <Route element={ <Lunar /> } path="/lunar" />
-          <Route element={ <Cell /> } path="/cell" />
-          <Route element={ <Car /> } path="/car" />
-          <Route element={ <Zelda /> } path="/zelda" />
-          <Route element={ <Metaverse /> } path="/metaverse" />
-          <Route element={ <SegmentFault /> } path="/segmentfault" />
-          <Route element={ <Human /> } path="/human" />
-          <Route element={ <Olympic /> } path="/olympic" />
-          <Route element={ <Comic /> } path="/comic" />
-          <Route element={ <Live /> } path="/live" />
-          <Route element={ <Floating /> } path="/floating" />
-          <Route element={ <Heart /> } path="/heart" />
-          <Route element={ <Ring /> } path="/ring" />
-          <Route element={ <Scroll /> } path="/scroll" />
-          <Route element={ <Ocean /> } path="/ocean" />
-          <Route element={ <Farm /> } path="/farm" />
-          <Route element={ <Mine /> } path="/mine" />
-          <Route element={ <Tennis /> } path="/tennis" />
-          <Route element={ <Shadow /> } path="/shadow" />
-          <Route element={ <Fans /> } path="/fans" />
-          <Route element={ <Gravity />} path="/gravity" />
-          <Route element={ <RickAndMorty />} path="/rickAndMorty" />
-          <Route element={ <Flag />} path="/flag" />
-          <Route element={ <ShaderPattern />} path="/shaderPattern" />
+          <Route element={ <Ocean /> } path="/" />
+          {/*<Route element={ <City /> } path="/city" />*/}
+          {/*<Route element={ <Earth /> } path="/earth" />*/}
+          {/*<Route element={ <EarthDigital /> } path='earthDigital' />*/}
+          {/*<Route element={ <Demo /> } path="/demo" />*/}
+          {/*<Route element={ <Lunar /> } path="/lunar" />*/}
+          {/*<Route element={ <Cell /> } path="/cell" />*/}
+          {/*<Route element={ <Car /> } path="/car" />*/}
+          {/*<Route element={ <Zelda /> } path="/zelda" />*/}
+          {/*<Route element={ <Metaverse /> } path="/metaverse" />*/}
+          {/*<Route element={ <SegmentFault /> } path="/segmentfault" />*/}
+          {/*<Route element={ <Human /> } path="/human" />*/}
+          {/*<Route element={ <Olympic /> } path="/olympic" />*/}
+          {/*<Route element={ <Comic /> } path="/comic" />*/}
+          {/*<Route element={ <Live /> } path="/live" />*/}
+          {/*<Route element={ <Floating /> } path="/floating" />*/}
+          {/*<Route element={ <Heart /> } path="/heart" />*/}
+          {/*<Route element={ <Ring /> } path="/ring" />*/}
+          {/*<Route element={ <Scroll /> } path="/scroll" />*/}
+          {/*<Route element={ <Ocean /> } path="/ocean" />*/}
+          {/*<Route element={ <Farm /> } path="/farm" />*/}
+          {/*<Route element={ <Mine /> } path="/mine" />*/}
+          {/*<Route element={ <Tennis /> } path="/tennis" />*/}
+          {/*<Route element={ <Shadow /> } path="/shadow" />*/}
+          {/*<Route element={ <Fans /> } path="/fans" />*/}
+          {/*<Route element={ <Gravity />} path="/gravity" />*/}
+          {/*<Route element={ <RickAndMorty />} path="/rickAndMorty" />*/}
+          {/*<Route element={ <Flag />} path="/flag" />*/}
+          {/*<Route element={ <ShaderPattern />} path="/shaderPattern" />*/}
         </Routes>
         </Suspense>
       </Router>
